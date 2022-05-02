@@ -13,9 +13,27 @@ const { NotImplementedError } = require('../extensions/index.js');
  * transform([1, 2, 3, '--discard-prev', 4, 5]) => [1, 2, 4, 5]
  * 
  */
-function transform(/* arr */) {
-  throw new NotImplementedError('Not implemented');
+function transform( arr ) {
+  //throw new NotImplementedError('Not implemented');
   // remove line with error and write your code here
+  // let directive = arr.find(el => typeof el == 'string');
+  // let indexDirective = arr.findIndex(el => typeof el == 'string');
+  // switch (directive) {
+  //   case '--discard-next':
+  //       alert('--discard-next');
+  //       let result = arr.slice(indexDirective, (indexDirective + 1))
+  //       break;
+  //   case '--discard-prev':
+  //       alert('--discard-prev');
+  //       break;
+  //   case '--double-next':
+  //       alert(indexDirective);
+  //       break;
+  //   case '--double-next':
+  //       alert('--double-prev');
+  //       break;
+  // }
+  // return result;
 }
 
 module.exports = {
